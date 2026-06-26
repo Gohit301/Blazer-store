@@ -1,0 +1,6 @@
+{
+  "name": "Loom & Layer Studio",
+  "description": "An IKEA-level e-commerce catalog and design application for premium modern soft furnishings, featuring custom organic handloom and minimalist lines, an interactive 3D & AR room planner, an AI Interior Decor Advisor, and secure checkout integration.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
