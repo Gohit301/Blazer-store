@@ -1,0 +1,107 @@
+/* Premium Typography & Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    padding-bottom: 50px;
+}
+
+/* Header Styling */
+header {
+    background-color: #0d1b2a; /* Deep luxury navy */
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-style: italic;
+    color: #e0e1dd;
+    font-size: 1.1rem;
+}
+
+/* Responsive Product Grid Layout */
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Luxury Product Card Design */
+.product-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    width: 320px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Image Placeholder styling until you add real photos */
+.product-image-placeholder {
+    background-color: #e2e8f0;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #718096;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 2px dashed #cbd5e0;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin: 15px 0 8px 0;
+    color: #0d1b2a;
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #b79457; /* Luxury Gold tone */
+    margin-bottom: 15px;
+}
+
+/* Interactive Buy Button */
+button {
+    background-color: #0d1b2a;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #1b263b;
+}
